@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <defs>
+    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7085ac"></stop>
+      <stop offset="100%" stop-color="#233753"></stop>
+    </linearGradient>
+  </defs>
+</svg>
