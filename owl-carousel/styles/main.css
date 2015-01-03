@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.item .background {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.item-1 .background {
+  background-image: url('../images/image-1.jpg');
+}
+
+.item-2 .background {
+  background-image: url('../images/image-2.jpg');
+}
+
+.item-3 .background {
+  background-image: url('../images/image-3.jpg');
+}
+
+.item-4 .background {
+  background-image: url('../images/image-4.jpg');
+}
+
+.item-5 .background {
+  background-image: url('../images/image-5.jpg');
+}
+
+.item-6 .background {
+  background-image: url('../images/image-6.jpg');
+}
+
+.item-7 .background {
+  background-image: url('../images/image-7.jpg');
+}
+
+.actions {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.action {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.action:hover,
+.action:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.action:first-child {
+  margin-left: 0;
+}
